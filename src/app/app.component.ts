@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-pipes';
+  servers: {}[] = [
+    {
+      name: 'Production #2 Server',
+      status: 'Online'
+    },
+    {
+      name: 'Testing Server',
+      status: 'Offline'
+    },
+    {
+      name: 'Production #1 Server',
+      status: 'Online'
+    }
+  ];
 }
